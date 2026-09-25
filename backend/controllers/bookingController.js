@@ -257,6 +257,7 @@ function updateBooking(req, res) {
     end_time,
     participants,
     organizer_name,
+    organizer_designation,
     organizer_contact,
     special_requirements,
     status

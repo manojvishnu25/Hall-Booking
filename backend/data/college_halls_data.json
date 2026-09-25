@@ -363,12 +363,50 @@
       "organizer_contact": "+91 98765 43210",
       "special_requirements": "AV Projection system & Mic setup requested",
       "status": "confirmed"
+    },
+    {
+      "id": 13,
+      "created_at": "2026-09-25T15:36:28.009Z",
+      "updated_at": "2026-09-25T15:40:17.888Z",
+      "department_id": 1,
+      "hall_id": "2",
+      "event_name": "conference",
+      "description": "",
+      "event_type": "Seminar",
+      "event_date": "2026-10-03",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "participants": 50,
+      "organizer_name": "Sanjay",
+      "organizer_designation": "Dean / Director",
+      "organizer_contact": "7904634802",
+      "special_requirements": "stage",
+      "status": "confirmed"
+    },
+    {
+      "id": 14,
+      "created_at": "2026-09-25T15:36:29.560Z",
+      "updated_at": "2026-09-25T15:36:29.560Z",
+      "department_id": 1,
+      "hall_id": "2",
+      "event_name": "conference",
+      "description": "",
+      "event_type": "Seminar",
+      "event_date": "2026-10-03",
+      "start_time": "10:00",
+      "end_time": "12:00",
+      "participants": 50,
+      "organizer_name": "Sanjay",
+      "organizer_designation": "Dean / Director",
+      "organizer_contact": "7904634802",
+      "special_requirements": "stage",
+      "status": "pending"
     }
   ],
   "autoInc": {
     "admins": 2,
     "departments": 8,
     "halls": 6,
-    "bookings": 13
+    "bookings": 15
   }
 }
