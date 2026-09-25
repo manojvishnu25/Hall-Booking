@@ -1,0 +1,25 @@
+{
+  "name": "college-hall-booking-backend",
+  "version": "1.0.0",
+  "description": "Backend API for Centralized College Conference Hall & Auditorium Booking System",
+  "main": "server.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "seed": "node seed/seedData.js",
+    "test:supabase": "node seed/testSupabase.js"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.117.1",
+    "bcryptjs": "^2.4.3",
+    "better-sqlite3": "^11.10.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "pg": "^8.23.0",
+    "socket.io": "^4.8.1",
+    "sqlite3": "^6.0.1"
+  }
+}
