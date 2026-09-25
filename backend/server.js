@@ -73,7 +73,11 @@ if (hallCount === 0) {
   seedDatabase();
 }
 
-const PORT = process.env.PORT || 5000;
-server.listen(PORT, () => {
-  console.log(`🚀 College Hall Booking API Server running on port ${PORT}`);
-});
+if (!process.env.VERCEL) {
+  const PORT = process.env.PORT || 5000;
+  server.listen(PORT, () => {
+    console.log(`🚀 College Hall Booking API Server running on port ${PORT}`);
+  });
+}
+
+module.exports = app;
